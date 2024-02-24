@@ -99,7 +99,13 @@ h3 {
     background-color: #fff;
 }
 .portfolio-title {
+    letter-spacing: 0.02em;
+    line-height: 1.11;
     text-align: center;
+    text-transform: capitalize;
+    color: #2e2f42;
+    font-weight: 500;
+    
 }
 .main {
   background-color: #f4f4fd;
