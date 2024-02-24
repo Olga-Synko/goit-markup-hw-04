@@ -63,6 +63,7 @@ h3 {
   letter-spacing: 0.03em;
   font-size: 18px;
   line-height: 117%;
+  text-transform: uppercase;
 }
 .logo-span {
   color: #2e2f42;
