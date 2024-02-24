@@ -3,38 +3,41 @@ body {
   background-color: #fff;
   color: #434455;
   font-size: 16px;
-  line-height: 1, 5;
-  letter-spacing: 2%;
+  line-height: 150%;
+  letter-spacing: 0.02em;
 }
-.logo {
+
+.header-nav {
+    color: #2e2f42;
+}
+
+.header-logo {
+  font-family: Raleway, sans-serif;
   color: #404bbf;
   font-weight: 700;
-  letter-spacing: 3%;
+  letter-spacing: 0.03em;
   font-size: 18px;
-  line-height: 1, 17;
+  line-height: 117%;
 }
-.logo-nav {
-  font-family: Raleway, sans-serif;
+.logo-span {
   color: #2e2f42;
-  font-weight: 700;
-  letter-spacing: 3%;
-  line-height: 1.17%;
-  font-size: 18px;
+}
+.header-menu {
+    font-weight: 500;
 }
 
 a {
-  line-height: 1, 33;
-  letter-spacing: 4%;
-  text-decoration: underline;
-  color: #2e2f42;
+  text-decoration: none;
 }
-a:hover a:focus {
-  color: #404bbf;
-  text-decoration: underline;
+a:hover  {
+    text-decoration: none;
+  
+  
 }
-a:active {
-  color: #4d5ae5;
-  text-decoration: underline;
+a:active, a:focus {
+    outline: none;
+  
+  
 }
 
 h1 {
@@ -51,7 +54,7 @@ button {
   line-height: 1, 5;
   letter-spacing: 4%;
 }
-button:hover button:focus {
+button:hover, button:focus {
   background-color: #404bbf;
 }
 
@@ -76,15 +79,13 @@ footer {
 }
 .footer-logo {
   font-family: Raleway, sans-serif;
-  color: #f4f4fd;
+  color: #404bbf;
   font-weight: 700;
   letter-spacing: 3%;
   line-height: 1.17%;
   font-size: 18px;
 }
-.logo-span {
-  color: #404bbf;
-}
+
 
 .footer-text {
   color: #f4f4fd;
