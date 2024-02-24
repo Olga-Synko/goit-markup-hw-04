@@ -120,9 +120,9 @@ footer {
 }
 .footer-logo {
   font-family: Raleway, sans-serif;
- 
+  letter-spacing: 0.03em;
   font-size: 18px;
-  font-size: 700;
+  font-weight: 700;
 }
 .logo{
     color: #f4f4fd;
@@ -130,4 +130,6 @@ footer {
 
 .footer-text {
   color: #f4f4fd;
+  letter-spacing: 0.02em;
+  line-height: 1.5;
 }
