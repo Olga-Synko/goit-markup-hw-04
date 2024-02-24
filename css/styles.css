@@ -22,18 +22,20 @@ a:active, a:focus {
 }
 
 .head {
-  letter-spacing: 2%;
+  letter-spacing: 0.02em;
   background-color: #2e2f42;
   color: #ffffff;
-  line-height: 1.071;
+  line-height: 1.07;
   font-size: 56px;
+  text-align: center;
 }
-button {
+.head-button {
   color: #fff;
   background-color: #4d5ae5;
   font-size: 16px;
-  line-height: 1, 5;
-  letter-spacing: 4%;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  cursor: pointer;
 }
 button:hover, button:focus {
   background-color: #404bbf;
