@@ -6,27 +6,8 @@ body {
   line-height: 150%;
   letter-spacing: 0.02em;
 }
-
-.header-nav {
-    color: #2e2f42;
-}
-
-.header-logo {
-  font-family: Raleway, sans-serif;
-  color: #404bbf;
-  font-weight: 700;
-  letter-spacing: 0.03em;
-  font-size: 18px;
-  line-height: 117%;
-}
-.logo-span {
-  color: #2e2f42;
-}
-.header-menu {
-    font-weight: 500;
-}
-
 a {
+    color: inherit;
   text-decoration: none;
 }
 a:hover  {
@@ -70,6 +51,52 @@ h3 {
   font-size: 20px;
   line-height: 1, 2;
   color: #2e2f42;
+}
+.header-nav {
+    color: #2e2f42;
+}
+
+.header-logo {
+  font-family: Raleway, sans-serif;
+  color: #404bbf;
+  font-weight: 700;
+  letter-spacing: 0.03em;
+  font-size: 18px;
+  line-height: 117%;
+}
+.logo-span {
+  color: #2e2f42;
+}
+.header-menu {
+    font-weight: 500;
+}
+.header-menu-title:hover,
+.header-menu-title:focus {
+    color: #404bbf;
+
+}
+.header-contacts {
+    font-style: normal;
+}
+.header-contact:hover,
+.header-contact:focus{
+    color: #404bbf;
+}
+
+
+
+.team-title{
+    text-align: center;
+}
+
+.team {
+    background-color: #f4f4fd;
+}
+.team-card{
+    background-color: #fff;
+}
+.portfolio-title {
+    text-align: center;
 }
 .main {
   background-color: #f4f4fd;
