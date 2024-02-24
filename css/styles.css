@@ -113,14 +113,16 @@ h3 {
 
 footer {
   background-color: #2e2f42;
+  color: #4d5ae5;
+  letter-spacing: 0.03em;
+  line-height: 1.17;
+  text-transform: uppercase;
 }
 .footer-logo {
   font-family: Raleway, sans-serif;
-  color: #404bbf;
-  font-weight: 700;
-  letter-spacing: 3%;
-  line-height: 1.17%;
+ 
   font-size: 18px;
+  font-size: 700;
 }
 .logo{
     color: #f4f4fd;
