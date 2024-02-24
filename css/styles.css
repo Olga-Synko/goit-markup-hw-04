@@ -7,6 +7,7 @@ body {
   letter-spacing: 2%;
 }
 a .logo-nav {
+    color: #F4F4FD;
   letter-spacing: 3%;
   font-size: 18px;
   line-height: 1, 16;
@@ -19,7 +20,7 @@ a .logo {
 a {
   line-height: 1, 33;
   letter-spacing: 4%;
-  text-decoration: none;
+  text-decoration: underline;
   color: #2e2f42;
 }
 a:hover a:focus {
@@ -47,8 +48,8 @@ button:hover button:focus {
   background-color: #404bbf;
 }
 
-ul {
-  list-style-type: none;
+a ul {
+   list-style-type: underline;
 }
 h2 {
   letter-spacing: 2%;
@@ -59,7 +60,18 @@ h3 {
   line-height: 1, 2;
   color: #2e2f42;
 }
-main{
+.main{
     background-color: #F4F4FD;
 }
+ footer{
+    background-color: #2E2F42;
+ }
 
+ a.logo-nav{ 
+    color: #F4F4FD;
+ }
+ .footer-text{
+    color: #F4F4FD;
+ }
+
+ 
