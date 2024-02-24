@@ -124,6 +124,7 @@ h3 {
 .team-card-name {
     font-weight: 500;
     line-break: 0.02em;
+    letter-spacing: 0.02em;
 }
 .portfolio-title {
     text-align: center;
