@@ -58,16 +58,15 @@ a:active, a:focus {
   background-color: #2e2f42;
   color: #ffffff;
   line-height: 1.07;
-  font-size: 56px;
+  
   text-align: center;
 }
 .head-button {
   color: #fff;
   background-color: #4d5ae5;
-  line-height: 150;
   letter-spacing: 0.04em;
   cursor: pointer;
-  font-weight: 500;
+  
 }
 button:hover, button:focus {
   background-color: #404bbf;
@@ -110,9 +109,8 @@ h3 {
     font-weight: 500;
     
 }
-.main {
-  background-color: #f4f4fd;
-}
+
+
 footer {
   background-color: #2e2f42;
 }
@@ -124,7 +122,9 @@ footer {
   line-height: 1.17%;
   font-size: 18px;
 }
-
+.logo{
+    color: #f4f4fd;
+}
 
 .footer-text {
   color: #f4f4fd;
