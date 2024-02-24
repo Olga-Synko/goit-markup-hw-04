@@ -21,7 +21,7 @@ a:active, a:focus {
   
 }
 
-h1 {
+.head {
   letter-spacing: 2%;
   background-color: #2e2f42;
   color: #ffffff;
