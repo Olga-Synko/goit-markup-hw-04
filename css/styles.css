@@ -1,0 +1,38 @@
+body {
+    font-family: "Roboto", sans-serife;
+    background-color: #fff;
+    color: #434455;
+    font-size: 16px;
+    line-height: 1,5;
+    letter-spacing: 2%;
+}
+a .logo{
+    font-family: "Raleway" sans-serif;
+    color: #4D5AE5;
+}
+
+a {
+   line-height: 1,33;
+   letter-spacing: 4%;
+   text-decoration: underline;
+   color: #2E2F42;
+}
+a :active {
+    color: #404BBF
+}
+a :hover {
+    color: #2E2F42;
+}
+
+.title{
+    font-family: Roboto, sans-serif;
+
+}
+ ul { list-style-type: none;
+
+ }
+span {
+    color: blue;
+    font-size: raleway;
+
+ }
