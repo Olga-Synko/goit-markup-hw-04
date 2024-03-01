@@ -136,6 +136,7 @@ section {
   margin: 0 auto 48px;
 }
 .hero-button {
+  min-width: 169px;
   color: #fff;
   background-color: #4d5ae5;
   letter-spacing: 0.04em;
@@ -231,10 +232,12 @@ section {
   column-gap: 24px;
   row-gap: 48px;
 }
+
+.portfolio-card-title {
+  margin-bottom: 8px;
+}
 .portfolio-card-description {
-  
   padding-top: 32px;
-  padding-right: ∞;
   padding-bottom: 32px;
   padding-left: 16px;
   border-right: 1px solid #e7e9fc;
@@ -243,6 +246,8 @@ section {
 }
 
 .footer {
+  padding-bottom: 100px;
+  padding-top: 100px;
   background-color: #2e2f42;
   color: #4d5ae5;
   letter-spacing: 0.03em;
@@ -250,6 +255,8 @@ section {
   text-transform: uppercase;
 }
 .footer-logo {
+  margin-bottom: 16px;
+  display: inline-block;
   font-family: Raleway, sans-serif;
   letter-spacing: 0.03em;
   font-size: 18px;
