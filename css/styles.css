@@ -103,6 +103,9 @@ section {
   justify-content: space-between;
   gap: 40px;
 }
+.header-menu-item {
+  gap: 40px 
+}
 
 .header-menu-title:hover,
 .header-menu-title:focus {
