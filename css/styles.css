@@ -52,6 +52,11 @@ h3 {
   line-height: 120%;
   color: #2e2f42;
 }
+
+img {
+  display: block;
+}
+
 section {
   padding-top: 120px;
   padding-bottom: 120px;
@@ -218,6 +223,7 @@ section {
   margin-bottom: 72px;
   text-align: center;
 }
+
 .portfolio-cards-list {
   display: flex;
   justify-content: space-between;
@@ -226,13 +232,14 @@ section {
   row-gap: 48px;
 }
 .portfolio-card-description {
-  text-align: start;
+  
   padding-top: 32px;
+  padding-right: ∞;
   padding-bottom: 32px;
   padding-left: 16px;
-  border-right: 1px solid #E7E9FC;
-  border-bottom: 1px solid #E7E9FC;
-  border-left: 1px solid #E7E9FC;
+  border-right: 1px solid #e7e9fc;
+  border-bottom: 1px solid #e7e9fc;
+  border-left: 1px solid #e7e9fc;
 }
 
 .footer {
@@ -249,10 +256,14 @@ section {
   font-weight: 700;
 }
 .logo {
+  
+  margin-bottom: 16px;
   color: #f4f4fd;
 }
 
+
 .footer-text {
+  max-width: 264px;
   color: #f4f4fd;
   letter-spacing: 0.02em;
   line-height: 1.5;
