@@ -61,6 +61,10 @@ section {
   padding-top: 120px;
   padding-bottom: 120px;
 }
+
+.header{
+  border-bottom: 1px solid #E7E9FC
+}
 .container {
   max-width: 1158px;
   padding-right: 15px;
