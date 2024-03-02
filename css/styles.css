@@ -63,7 +63,8 @@ section {
 }
 
 .header{
-  border-bottom: 1px solid #E7E9FC
+  border-bottom: 1px solid #E7E9FC;
+  margin: 96px;
 }
 .container {
   max-width: 1158px;
