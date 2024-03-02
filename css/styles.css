@@ -245,7 +245,7 @@ section {
   margin-bottom: 8px;
 }
 .portfolio-card-description {
-  padding:32px 16px;
+  padding:32px 0;
   border-right: 1px solid #e7e9fc;
   border-bottom: 1px solid #e7e9fc;
   border-left: 1px solid #e7e9fc;
