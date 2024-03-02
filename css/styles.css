@@ -258,7 +258,7 @@ section {
   color: #4d5ae5;
   letter-spacing: 0.03em;
   line-height: 1.17;
-  text-transform: uppercase;
+  
 }
 .footer-logo {
   margin-bottom: 16px;
@@ -267,6 +267,7 @@ section {
   letter-spacing: 0.03em;
   font-size: 18px;
   font-weight: 700;
+  text-transform: uppercase;
 }
 .logo {
   
@@ -280,4 +281,6 @@ section {
   color: #f4f4fd;
   letter-spacing: 0.02em;
   line-height: 1.5;
+  text-transform: capitalize;
+  
 }
