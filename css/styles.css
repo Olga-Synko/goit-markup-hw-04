@@ -103,9 +103,7 @@ section {
   justify-content: space-between;
   gap: 40px;
 }
-.header-menu-item {
-  gap: 40px 
-}
+
 
 .header-menu-title:hover,
 .header-menu-title:focus {
@@ -118,6 +116,8 @@ section {
 .header-contacts {
   display: flex;
   font-style: normal;
+  gap: 40px;
+
 }
 .header-contact:hover,
 .header-contact:focus {
@@ -242,7 +242,7 @@ section {
 .portfolio-card-description {
   padding-top: 32px;
   padding-bottom: 32px;
-  padding-left: 16px;
+  
   border-right: 1px solid #e7e9fc;
   border-bottom: 1px solid #e7e9fc;
   border-left: 1px solid #e7e9fc;
