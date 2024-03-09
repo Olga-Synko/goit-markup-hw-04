@@ -102,7 +102,7 @@ section {
 /*  Header */
 .header {
   border-bottom: 1px solid #e7e9fc;
-  box-shadow: 0 1px 6px 0 rgba(46, 47, 66, 0.08), 0 1px 1px 0 rgba(46, 47, 66, 0.16), 0 2px 1px 0 rgba(46, 47, 66, 0.08);
+ transition: box-shadow 0 1px 6px 0 rgba(46, 47, 66, 0.08), 0 1px 1px 0 rgba(46, 47, 66, 0.16), 0 2px 1px 0 rgba(46, 47, 66, 0.08);
 }
 .container {
   max-width: 1158px;
@@ -148,6 +148,8 @@ section {
 .header-menu-title {
   display: block;
   padding: 24px 0;
+  transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
+
 }
 
 .header-menu-item:nth-child(1) .header-menu-title::after {
@@ -159,7 +161,6 @@ section {
   width: 48px;
   height: 4px;
   background: #404bbf;
-  transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .header-menu-item:nth-child(1) .header-menu-title {
@@ -341,10 +342,11 @@ section {
   flex-wrap: wrap;
   column-gap: 24px;
   row-gap: 48px;
+  cursor: pointer;
   transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1); 
 }
-.portfolio-cards-lis:hover {
-  box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
+.portfolio-card-list:hover {
+  transition: box-shadow 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
 }
 
 .portfolio-card-title {
@@ -367,7 +369,7 @@ section {
   color: #f4f4fd;
   background-color: #4d5ae5;
 }
-.portfolio-card-imgoverlay:hover .portfolio-card-overlay{
+.portfolio-card-list:hover .portfolio-card-overlay{
   transform: translateY(0);
 }
 
@@ -419,7 +421,7 @@ section {
   color: #fff;
   margin-bottom: 16px;
   font-weight: 500;
-  line-height: 1,5;
+  line-height: 1.5;
   letter-spacing: 0.02em;
 }
 
