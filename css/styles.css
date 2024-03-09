@@ -11,7 +11,6 @@ a {
 
 a:hover {
   text-decoration: none;
-  transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 a:active,
@@ -103,6 +102,7 @@ section {
 /*  Header */
 .header {
   border-bottom: 1px solid #e7e9fc;
+  box-shadow: 0 1px 6px 0 rgba(46, 47, 66, 0.08), 0 1px 1px 0 rgba(46, 47, 66, 0.16), 0 2px 1px 0 rgba(46, 47, 66, 0.08);
 }
 .container {
   max-width: 1158px;
@@ -150,18 +150,23 @@ section {
   padding: 24px 0;
 }
 
-.header-menu-item:nth-child(1)::after {
+.header-menu-item:nth-child(1) .header-menu-title::after {
+  position: absolute;
   display: block;
-  content: "";
+  content: '';
   border-radius: 2px;
+  bottom: -1px;
   width: 48px;
   height: 4px;
   background: #404bbf;
+  transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-.header-menu-item:nth-child(1) {
+
+.header-menu-item:nth-child(1) .header-menu-title {
   position: relative;
   color: #404bbf;
 }
+
 .header-contacts {
   display: flex;
   font-style: normal;
@@ -211,14 +216,15 @@ section {
   margin: 0 auto;
   display: block;
   border-radius: 4px;
-
   border: none;
   padding: 16px 32px;
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .hero-button:hover,
 .hero-button:focus {
   background-color: #404bbf;
+
 }
 
 .visually-hidden {
@@ -330,12 +336,15 @@ section {
 }
 
 .portfolio-cards-list {
-  box-shadow: 0 2px 1px 0 rgba(46, 47, 66, 0.08), 0 1px 1px 0 rgba(46, 47, 66, 0.16), 0 1px 6px 0 rgba(46, 47, 66, 0.08);
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
   column-gap: 24px;
   row-gap: 48px;
+  transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1); 
+}
+.portfolio-cards-lis:hover {
+  box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
 }
 
 .portfolio-card-title {
@@ -409,6 +418,9 @@ section {
 .footer-social-title {
   color: #fff;
   margin-bottom: 16px;
+  font-weight: 500;
+  line-height: 1,5;
+  letter-spacing: 0.02em;
 }
 
 .footer-social-list {
